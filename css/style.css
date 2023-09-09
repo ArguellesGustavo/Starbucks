@@ -201,3 +201,32 @@
 	top: -25px;
 	right: -25px;
 }
+.footer{
+	background: black;
+	padding: 32px 16px;
+}
+.footer__container-user{
+	display: flex;
+	flex-direction: column;
+}
+.footer__link-user{
+	color: #006241;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 2px;
+}
+.footer__container-social{
+	margin: 10px 0;
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__container-social i{
+	color: #006241;
+	font-size: 18px;
+}
+.footer__link-contact{
+	text-decoration: none;
+	color: #09aa00;
+}
