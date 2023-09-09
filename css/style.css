@@ -400,3 +400,17 @@
 		margin-left: 30px;
 	}
 }
+@media (min-width: 1440px) {
+	.main__container-title{
+		padding-right: 150px;
+	}
+	.main__description{
+		padding-right: 50px;
+	}
+	.gallery__img{
+		height: 700px;
+	}
+	.cards__card{
+		height: 490px;
+	}
+} 
