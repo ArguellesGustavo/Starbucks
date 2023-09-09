@@ -133,3 +133,71 @@
 	background: yellow;
 	border: 1px solid yellow;
 }
+.cards__card{
+	background: #006241;
+	margin: 16px 68px;
+	color: white;
+	position: relative;
+	width: 85%;
+	padding-bottom: 10px;
+}
+.cards{
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cards__card-img{
+	width: 100%;
+}
+.cards__card-title span{
+	color: yellow;
+}
+.cards__card-container-text{
+	padding: 8px 16px;
+}
+.cards__card-description {
+	font-size: 13px;
+	margin: 7.5px 5px;
+}
+.cards__card-btn {
+	background: #006241;
+	border: 1px solid white;
+	color: white;
+	width: 120px;
+	margin-top: 20px;
+	border-radius: 7.5px;
+	padding: 6px 24px;
+	font-size: 12px;
+	transition: all 1s;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.cards__card-btn:hover {
+	background: yellow;
+	border: 1px solid yellow;
+}
+.cards__container-btn {
+	display: flex;
+	flex-direction: column;
+}
+.cards__container-btn a {
+	margin: 7.5px 0 0;
+	width: 75%;
+	text-align: center;
+}
+.cards__circle {
+	background: rgb(216, 240, 7);
+	width: 55px;
+	height: 55px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -25px;
+	right: -25px;
+}
