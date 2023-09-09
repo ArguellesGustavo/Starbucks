@@ -35,3 +35,26 @@
 	color: white;
 	font-size: 40px;
 }
+.main__container-logo{
+	display: none;
+}
+.main{
+	margin-top: 80px;
+	padding: 15px 15px 60px;
+
+}
+.main__container-title{
+	font-size: 50px;
+	line-height: 1.2;
+}
+.main__container-title span{
+	color: #006241;
+}
+.main__description{
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.main__container-text{
+	display: flex;
+	flex-direction: column;
+}
