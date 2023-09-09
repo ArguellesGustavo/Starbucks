@@ -58,3 +58,18 @@
 	display: flex;
 	flex-direction: column;
 }
+.gallery{
+	background: #006241;
+	padding: 50px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.gallery__img{
+	width: 288px;
+	height: 430px;
+	margin-top: 25px;
+	width: 95%;
+	height: 95%;
+}
